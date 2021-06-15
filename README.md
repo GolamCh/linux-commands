@@ -16,6 +16,12 @@
   - `-x`: Shows information about processes without terminals
   - `-u`: Shows additional information
   - `-e`: Displays extended information
+- `head file_name`: Shows the first 10 lines of the file
+  - The value of the number of lines shown can be changed as follows: `head -{number of lines} file_name`
+- `tail file_name`: Shows the last 10 lines of the file
+  - The value of the number of lines shown can be changed as follows: `head -{number of lines} file_name`
+- `nl file_name`: Gives the number of lines in the file
+- `wc file_name`: Gives the number of words in the file
 
 ## Stopping Processes
 - If the process is running in the foreground, simply send `CTRL + C`, which will exit the command.
@@ -40,6 +46,6 @@
 
 
 
-- How to use head, tail, sort, nl (number line), wc (word count)
-- What is pipping and redirection
+
+- What is piping and redirection
 - What is STDIN standard input and output
