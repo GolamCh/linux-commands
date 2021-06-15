@@ -43,9 +43,12 @@
   - `600`: A private file, only changeable by the user who enetred the command
 - `chmod` can be applied to either files or directories.
 
+## Piping & Redirection
 
 
 
 
-- What is piping and redirection
+
+
+
 - What is STDIN standard input and output
